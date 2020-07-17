@@ -21,18 +21,19 @@ python manage.py migrate
 python manage.py createsuperuser
 python manage.py runserver
 ```
-
-
 2. Open a browser to `http://127.0.0.1:8000/admin/` to open the admin site
 3. Create a few test objects of each type.
 4. Open tab to `http://127.0.0.1:8000/courses` to see the list of couses, with your new objects.
 
 ### Documentation
-
+[documentation link](https://coursesapi3.docs.apiary.io/#reference/0/list-of-courses/list-all-courses)
 
 ### Running the tests
-There are no tests yet.
+> There are no tests yet.
 
 ### Built With
+- Django
+- Django REST framework
 
 ### Authors
+- Mambetaliev Azamat - [me of GitHub](https://github.com/Azamat229/)
