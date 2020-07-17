@@ -13,7 +13,9 @@ Setup the virtual environment, and activate it
 1. Assuming you have Python setup, run the following commands
 
 `pip install -r requirements.txt`
+
 `python manage.py makemigrations`
+
 `python manage.py migrate`
 `python manage.py createsuperuser`
 `python manage.py runserver`
