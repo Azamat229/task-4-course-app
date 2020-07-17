@@ -7,6 +7,7 @@ These instructions will get you a copy of the project up and running on your loc
 ### Prerequisites
 Setup the virtual environment, and activate it
 `python -m venv env`
+
 `env\Scripts\activate`
 
 ### Installing
@@ -17,7 +18,9 @@ Setup the virtual environment, and activate it
 `python manage.py makemigrations`
 
 `python manage.py migrate`
+
 `python manage.py createsuperuser`
+
 `python manage.py runserver`
 
 2. Open a browser to `http://127.0.0.1:8000/admin/` to open the admin site
