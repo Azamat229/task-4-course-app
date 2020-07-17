@@ -35,9 +35,13 @@ python manage.py runserver
 ### Running the tests
 > There are no tests yet.
 
+### Deployment
+> It doesn't deployed yet
+
 ### Built With
-- Django
-- Django REST framework
+- Django - framework for build web application
+- Django REST framework - framework for build API for web application
+- PyCharm - Idea for python and their frameworks
 
 ### Authors
 - Mambetaliev Azamat - [me of GitHub](https://github.com/Azamat229/)
