@@ -6,29 +6,18 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 Setup the virtual environment, and activate it
-
-`
-python -m venv env
-
-env\Scripts\activate
-`
+`python -m venv env`
+`env\Scripts\activate`
 
 ### Installing
 1. Assuming you have Python setup, run the following commands
 
-`
-pip install -r requirements.txt
+`pip install -r requirements.txt`
+`python manage.py makemigrations`
+`python manage.py migrate`
+`python manage.py createsuperuser`
+`python manage.py runserver`
 
-python manage.py makemigrations
-
-python manage.py migrate
-
-python manage.py createsuperuser
-
-python manage.py runserver
-
-`
-
-2. Open a browser to http://127.0.0.1:8000/admin/ to open the admin site
+2. Open a browser to `http://127.0.0.1:8000/admin/` to open the admin site
 3. Create a few test objects of each type.
-4. Open tab to http://127.0.0.1:8000/courses to see the list of couses, with your new objects.
+4. Open tab to `http://127.0.0.1:8000/courses` to see the list of couses, with your new objects.
