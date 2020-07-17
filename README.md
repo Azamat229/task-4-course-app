@@ -3,6 +3,7 @@ It is simple API wich allows to users views a list of courses, create a new cour
 
 ## Getting Started
 Setup the virtual environment, and activate it
+
 `
 python -m venv env
 env\Scripts\activate
