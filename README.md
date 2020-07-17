@@ -27,6 +27,8 @@ python manage.py runserver
 
 ### Documentation
 [documentation link](https://coursesapi3.docs.apiary.io/#reference/0/list-of-courses/list-all-courses)
+[courses](https://private-f4a7a-coursesapi3.apiary-mock.com/courses)
+[courses/1](https://private-f4a7a-coursesapi3.apiary-mock.com/courses/1)
 
 ### Running the tests
 > There are no tests yet.
