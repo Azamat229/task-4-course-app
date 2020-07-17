@@ -1,5 +1,5 @@
-from app.serializers import CourseListSerializer, CourseDetailSerializer, CourseCreateSerializer
-from app.models import Course
+from .serializers import CourseListSerializer, CourseDetailSerializer, CourseCreateSerializer
+from .models import Course
 from rest_framework.views import APIView
 from rest_framework.response import Response
 from django.http import Http404
@@ -18,7 +18,8 @@ class CourseListView(APIView):
         course = CourseCreateSerializer(data=request.data)
         if course.is_valid():
             course.save()
-        return Response(status=status.HTTP_201_CREATED)
+            return Response(course.data, status=status.HTTP_201_CREATED)
+        return Response(course.errors, status=status.HTTP_400_BAD_REQUEST)
 
 
 class CourseDetailView(APIView):

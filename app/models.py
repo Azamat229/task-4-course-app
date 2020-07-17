@@ -42,8 +42,8 @@ class Course(models.Model):
     category = models.ForeignKey(Category, on_delete=models.SET_NULL, null=True,
                                  related_name='courses')  # если удалим поле категории то поле будет Null
     logo = models.CharField(max_length=120)
-    contacts = models.ForeignKey(Contact, on_delete=models.CASCADE)
-    branches = models.ForeignKey(Branch, on_delete=models.CASCADE)
+    contact = models.ForeignKey(Contact, on_delete=models.CASCADE)
+    branch = models.ForeignKey(Branch, on_delete=models.CASCADE)
 
     def __str__(self):
         return self.name
