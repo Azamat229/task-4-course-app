@@ -15,6 +15,7 @@ env\Scripts\activate
 1. Assuming you have Python setup, run the following commands
 
 ```bash
+python -m pip install --upgrade pip
 pip install -r requirements.txt
 python manage.py makemigrations
 python manage.py migrate
